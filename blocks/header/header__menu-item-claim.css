@@ -1,12 +1,9 @@
-.header__menu-item{
-    margin: 0 38px 0 0;
-    padding:0;
+.header__menu-item-claim{
+    margin: 45px 0;
     font-size: 14px;
     font-weight: bold;
     font-stretch: expanded;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
-
 }
-

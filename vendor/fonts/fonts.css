@@ -4,7 +4,7 @@
     src: 
     url("../fonts/Roboto-Black.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
 }
 
 @font-face {
@@ -12,13 +12,13 @@
     src:
     url("../fonts/Roboto-Bold.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
 }
 @font-face {
     font-family: "Roboto regular";
     src: 
     url("../fonts/Roboto-Regular.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
 }
 
