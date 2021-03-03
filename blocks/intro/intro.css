@@ -1,0 +1,7 @@
+.intro{
+    margin: 0 60px 0 60px;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
