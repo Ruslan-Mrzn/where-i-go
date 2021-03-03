@@ -1,0 +1,8 @@
+.page{
+    width: 1377px;
+    background: white;
+    color: black;
+    margin: 0 auto;
+    /* для отладки а то не видно где граница сайта на белом*/
+    border: 1px solid black;
+}

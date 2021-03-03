@@ -1,0 +1,6 @@
+.intro__subtitle{
+    font-size: 38px;
+    font-family: "Roboto regular";
+    /* сомневаюсь про это свойтво, шрифт правильный, а межбуквенный интервал не могу подобрать никак */
+    letter-spacing: -1px;
+}
