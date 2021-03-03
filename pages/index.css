@@ -16,3 +16,14 @@
 @import url(../blocks/intro/intro__title.css);
 @import url(../blocks/intro/intro__subtitle.css);
 @import url(../blocks/intro/intro__img.css);
+
+
+/* people */
+
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/people__title.css);
+@import url(../blocks/people/people__subtitle.css);
+@import url(../blocks/people/people__quotes.css);
+@import url(../blocks/people/people__quote-name.css);
+@import url(../blocks/people/people__quote-text.css);
+

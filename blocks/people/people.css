@@ -1,0 +1,9 @@
+.people{
+    /*для отладки, пока твоей секции нет у меня что б совпадало с пикселем */
+    margin: 1960px auto;
+
+
+    padding: 0;
+    box-sizing: border-box;
+    width: calc(100% - 150px);
+}
