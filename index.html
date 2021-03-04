@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Куда бы поехать</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Куда бы поехать</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <!-- Pixel Glass -->
+  <style>
+    HTML {
+      background-repeat: no-repeat;
+      background-position:  50% 0;
+      /* По умолчанию показывается мобильный макет */
+      background-image: url( "../PixPerfect/mockup_2021.png" );
+      background-color: #2a2c2f;
+    }
+    /* Планшет */
+    /* @media ( min-width: 768px ) {
+      HTML {
+
+        background-image: url( "" );
+      }
+    } */
+    /* Десктоп 4:3 */
+    /* @media ( min-width: 1024px ) {
+      HTML {
+
+        background-image: url( "" );
+      }
+    } */
+    /* Десктоп 16:9 */
+    /* @media ( min-width: 1280px ) {
+      HTML {
+
+        background-image: url( "" );
+      }
+    }*/
+  </style>
+  <link href="./node_modules/pixel-glass/styles.css" rel="stylesheet">
+  <script src="./node_modules/pixel-glass/script.js"></script>
+  <!-- // Pixel Glass -->
 </head>
-<body>
-    <header class="header"></header>
+<body class="page">
+
+  <main class="page__content content">
+    <section class="page__destinations destinations">
+      <article class="page__destination destination">
+        <div class="destination__img-container">
+          <img src="./images/places-forest.jpeg" alt="Водопад в лесу" class="destination__img">
+        </div>
+        <div class="destination__text-block">
+          <h2 class="destination__title">Поеду в лес</h2>
+          <div class="destination__text-container">
+            <p class="destination__paragraph">
+              Лес — экологическая система, биоценоз,
+              в которой главной жизненной формой являются деревья.
+            </p>
+            <p class="destination__paragraph">
+              Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях.
+              В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение.
+              Леса занимают около трети площади суши.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="page__destination destination">
+        <div class="destination__img-container">
+          <img src="./images/places-mountains.jpeg" alt="Горы" class="destination__img">
+        </div>
+        <div class="destination__text-block">
+          <h2 class="destination__title">Поеду в горы</h2>
+          <div class="destination__text-container">
+            <p class="destination__paragraph">
+              Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки,
+              25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки.
+              В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор.
+              В горах берёт своё начало большинство рек Земли.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="page__destination destination">
+        <div class="destination__img-container">
+          <img src="./images/places-black-sea.jpeg" alt="Черное море" class="destination__img">
+        </div>
+        <div class="destination__text-block">
+          <h2 class="destination__title">Поеду на Чёрное море</h2>
+          <div class="destination__text-container">
+            <p class="destination__paragraph">
+              Я уплыву туда, где ни разу я не был, туда, где никто раньше не был.
+              Никто и никогда раньше не был, я уплыву.
+              Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.
+            </p>
+            <p class="destination__paragraph">
+              Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное
+              море,&nbsp;на Чёрное-Чёрное море уеду я.
+              Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.
+            </p>
+            <p class="destination__paragraph">
+              Уеду я.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
-</html> 
+</html>
