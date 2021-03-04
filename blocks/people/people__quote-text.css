@@ -1,0 +1,11 @@
+.people__quote-text {
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Roboto regular';
+    letter-spacing: 1px;
+
+}

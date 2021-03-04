@@ -37,3 +37,11 @@
 @import url(../blocks/destination/destination__text-container.css);
 @import url(../blocks/destination/destination__paragraph.css);
 
+/* people */
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/people__title.css);
+@import url(../blocks/people/people__subtitle.css);
+@import url(../blocks/people/people__quotes.css);
+@import url(../blocks/people/people__quote-name.css);
+@import url(../blocks/people/people__quote-text.css);
+
