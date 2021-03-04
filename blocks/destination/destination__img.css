@@ -9,9 +9,10 @@
 .destination:nth-of-type(3) .destination__img {
   margin: 0;
   padding: 0;
+  max-width: none;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: -120px 50%;
 }
 
 
