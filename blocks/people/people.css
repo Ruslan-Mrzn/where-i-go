@@ -1,6 +1,6 @@
 .people{
     /*для отладки, пока твоей секции нет у меня что б совпадало с пикселем */
-    margin: 1960px auto;
+    margin: 1960px auto 0 auto;
 
 
     padding: 0;

@@ -1,0 +1,8 @@
+.airport{
+    background: #F2F2F2;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+}
