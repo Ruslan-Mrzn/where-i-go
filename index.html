@@ -6,44 +6,28 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Куда бы поехать</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <!-- Pixel Glass -->
-  <style>
-    HTML {
-      background-repeat: no-repeat;
-      background-position:  50% 0;
-      /* По умолчанию показывается мобильный макет */
-      background-image: url( "../PixPerfect/mockup_2021.png" );
-      background-color: #2a2c2f;
-    }
-    /* Планшет */
-    /* @media ( min-width: 768px ) {
-      HTML {
-
-        background-image: url( "" );
-      }
-    } */
-    /* Десктоп 4:3 */
-    /* @media ( min-width: 1024px ) {
-      HTML {
-
-        background-image: url( "" );
-      }
-    } */
-    /* Десктоп 16:9 */
-    /* @media ( min-width: 1280px ) {
-      HTML {
-
-        background-image: url( "" );
-      }
-    }*/
-  </style>
-  <link href="./node_modules/pixel-glass/styles.css" rel="stylesheet">
-  <script src="./node_modules/pixel-glass/script.js"></script>
-  <!-- // Pixel Glass -->
 </head>
 <body class="page">
-
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li> <a href="#" class="header__menu-item" target="_self" rel="noopener">Мечты</a></li>
+        <li> <a href="#" class="header__menu-item" target="_self" rel="noopener">Ожидания</a></li>
+        <li> <a href="#" class="header__menu-item" target="_self" rel="noopener">Реальность</a></li>
+      </ul>
+      <a href="#" class="header__menu-item-claim" target="_self" rel="noopener">Пожаловаться</a>
+    </nav>
+  </header>
   <main class="page__content content">
+    
+    <section class="intro">
+      <div class="intro__textblock">
+        <h1 class="intro__title">куда я поеду</h1>
+        <h2 class="intro__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</h2>
+      </div>
+      <img src="./images/intro-image.jpeg" alt="крыло самолета" class="intro__img">
+    </section>
+
     <section class="page__destinations destinations">
       <article class="page__destination destination">
         <div class="destination__img-container">

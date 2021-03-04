@@ -1,0 +1,11 @@
+.intro__title{
+    padding:0;
+    margin: 165px 0 30px 0;
+    color: #FFD7B2;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    /* тут шрифт не тот по ходу :(*/
+    font-family: 'Roboto bold';
+    letter-spacing: -1px;
+}
