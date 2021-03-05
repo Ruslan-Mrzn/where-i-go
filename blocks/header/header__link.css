@@ -4,7 +4,16 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+  transition: 0.3s;
 }
+
+
+
+
+.header__link:hover {
+  opacity: 0.5;
+}
+
 
 @media (max-width: 555px) {
   .header__link {

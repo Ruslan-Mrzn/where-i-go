@@ -5,7 +5,17 @@
   text-decoration: none;
   margin-left: auto;
   color: black;
+  transition: 0.3s;
 }
+
+
+
+
+.header__to-complain:hover {
+  opacity: 0.8;
+}
+
+
 
 @media (max-width: 650px) {
   .header__to-complain {
