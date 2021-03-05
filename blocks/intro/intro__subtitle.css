@@ -3,3 +3,25 @@
   line-height: 1.2;
   letter-spacing: .9px;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__subtitle {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: .9px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__subtitle {
+    font-size: 30px;
+    letter-spacing: .9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__subtitle {
+    font-size: 24px;
+    letter-spacing: .9px;
+  }
+}

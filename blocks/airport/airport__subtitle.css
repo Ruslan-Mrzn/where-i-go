@@ -6,3 +6,28 @@
     width: 270px;
     line-height: 1.25;
 }
+
+@media screen and (max-width: 1279px) {
+  .airport__subtitle {
+    margin: 160px 0 0 55px;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: .9px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .airport__subtitle {
+    margin: 100px 0 0 35px;
+    font-size: 30px;
+    letter-spacing: .9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .airport__subtitle {
+    margin: 50px 0 0 15px;
+    font-size: 24px;
+    letter-spacing: .9px;
+  }
+}

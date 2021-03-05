@@ -6,3 +6,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+  .airport{
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+}
+

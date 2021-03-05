@@ -6,3 +6,27 @@
     width: 380px;
     padding:0;
 }
+
+@media screen and (max-width: 1279px) {
+  .airport__form{
+    margin: 65px 0 0 55px;
+    width: 350px;
+    padding:0;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  .airport__form{
+    margin: 45px 0 0 35px;
+    width: 300px;
+    padding:0;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .airport__form{
+    margin: 25px 0 0 15px;
+    width: 250px;
+    padding:0;
+}
+}

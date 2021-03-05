@@ -14,4 +14,26 @@
 .airport__form-button[type=submit]{
     background-color: #000;
   }
-  
+
+
+  @media screen and (max-width: 1279px) {
+    .airport__form-button{
+      margin: 25px 0 0 130px;
+      width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .airport__form-button{
+      margin: 25px 0 0 80px;
+      width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .airport__form-button{
+      margin: : 25px 0 50px 30px;
+      width: 220px;
+
+    }
+  }
