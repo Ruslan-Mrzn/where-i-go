@@ -1,0 +1,8 @@
+.video__subtitle{
+    margin:0;
+    padding: -140px 0 0 60px;
+    z-index:3;
+    color: white;
+    font-family: 'Roboto regular';
+    position: relative;
+}

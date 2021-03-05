@@ -1,0 +1,17 @@
+.airport__form-button{
+    margin: 25px 0 0 165px;
+    width: 220px;
+    height: 35px;
+    font-size: 14px;
+    border: 0;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: opacity .4s;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto regular';
+}
+
+.airport__form-button[type=submit]{
+    background-color: #000;
+  }
+  
