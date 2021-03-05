@@ -1,8 +1,10 @@
-.page{
-    width: 1377px;
-    background: white;
-    color: black;
-    margin: 0 auto;
-    /* для отладки а то не видно где граница сайта на белом*/
-    border: 1px solid black;
+
+.page {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: white;
+  min-height: 5087px;
 }

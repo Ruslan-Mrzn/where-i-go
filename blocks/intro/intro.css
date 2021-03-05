@@ -1,8 +1,7 @@
 .intro{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    width: calc(100% - 150px);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1377px;
+  min-height: 560px;
 }

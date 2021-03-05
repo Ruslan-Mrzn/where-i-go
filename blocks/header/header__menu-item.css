@@ -1,12 +1,8 @@
-.header__menu-item{
-    margin: 0 38px 0 0;
-    padding:0;
-    font-size: 14px;
-    font-weight: bold;
-    font-stretch: expanded;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-
+.header__menu-item {
+  margin: 0 0 0 38px;
+  padding: 10px 0;
 }
 
+.header__menu-item:first-of-type {
+  margin-left: 0;
+}

@@ -1,6 +1,6 @@
 .people__subtitle {
-    font-size: 38px;
-    font-family: "Roboto regular";
-    letter-spacing: -1px;
-    width: 450px;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: .9px;
+  max-width: 450px;
 }

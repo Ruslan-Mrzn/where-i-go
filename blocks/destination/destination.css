@@ -1,0 +1,9 @@
+.destination {
+  max-width: 1377px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.destination:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}

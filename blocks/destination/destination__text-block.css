@@ -1,0 +1,13 @@
+.destination__text-block {
+  margin: 0;
+  padding: 70px 0 93px 75px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.destination:nth-of-type(3) .destination__text-block {
+  padding-bottom: 70px;
+}
