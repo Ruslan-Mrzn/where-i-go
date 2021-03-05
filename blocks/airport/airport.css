@@ -8,9 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .airport{
-    max-height: 800px;
-    display: flex;
+  .airport {
     flex-direction: column;
 }
 }

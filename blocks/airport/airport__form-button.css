@@ -1,14 +1,15 @@
-.airport__form-button{
-    margin: 25px 0 0 165px;
-    width: 220px;
+.airport__form-button {
+  box-sizing: border-box;
+    margin: 20px 0 0 165px;
+    width: 215px;
     height: 35px;
-    font-size: 14px;
+    font-size: 16px;
     border: 0;
-    padding-bottom: 5px;
+    padding: 5px 5px;
     cursor: pointer;
     transition: opacity .4s;
     color: rgb(255, 255, 255);
-    font-family: 'Roboto regular';
+    font-family: 'Roboto';
 }
 
 .airport__form-button[type=submit]{
