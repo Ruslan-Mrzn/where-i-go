@@ -3,3 +3,24 @@
   height: 385px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro__img {
+    width: 352px;
+    height: 355px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__img {
+    width: 302px;
+    height: 305px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__img {
+    width: 282px;
+    height: 285px;
+  }
+}

@@ -5,3 +5,10 @@
   max-width: 1377px;
   min-height: 560px;
 }
+
+
+@media screen and (max-width: 767px) {
+  .intro{
+    display: flex;
+    flex-direction: column;
+  }

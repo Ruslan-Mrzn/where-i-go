@@ -1,7 +1,7 @@
 .airport{
-    background: #F2F2F2;
-    width: 100%;
-    margin: 0;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    max-width: 1377px;
     padding:0;
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,8 @@
+.footer{
+  background-color: #FECDA7;
+  max-width: 1377px;
+  height: 670px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
