@@ -14,5 +14,10 @@
   .destination {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .destination:nth-of-type(2n) {
+    flex-direction: column;
   }
 }

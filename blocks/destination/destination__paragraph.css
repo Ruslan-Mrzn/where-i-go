@@ -10,3 +10,13 @@
 .destination__paragraph:last-of-type {
   margin-bottom: 0;
 }
+
+
+@media screen and (max-width: 767px) {
+  .destination__paragraph {
+    font-size: 12px;
+    letter-spacing: .3px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}

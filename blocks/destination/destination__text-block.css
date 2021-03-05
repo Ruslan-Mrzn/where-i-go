@@ -11,3 +11,16 @@
 .destination:nth-of-type(3) .destination__text-block {
   padding-bottom: 70px;
 }
+
+
+
+@media screen and (max-width: 767px) {
+  .destination__text-block {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .destination:nth-of-type(3) .destination__text-block {
+    padding: 20px 10px;
+  }
+}
