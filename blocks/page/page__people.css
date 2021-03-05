@@ -5,21 +5,18 @@
 
 @media screen and (max-width: 1279px) {
   .page__people {
-    margin: 0 auto;
     padding: 35px 70px 0 65px;;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .page__people {
-    margin: 0 auto;
     padding: 35px 70px 0 45px;;
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__people {
-    margin: 0 auto;
-    padding: 25px 100px 50px 20px;
+    padding: 0 25px;
   }
 }

@@ -6,8 +6,9 @@
 
 }
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .airport__right{
     width: 100%;
+    min-height: 400px;
   }
-} */
+}

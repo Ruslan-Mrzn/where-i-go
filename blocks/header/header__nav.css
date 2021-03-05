@@ -6,3 +6,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: 555px) {
+  .header__nav {
+    flex-direction: column;
+  }
+}

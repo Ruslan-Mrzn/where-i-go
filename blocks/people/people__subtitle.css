@@ -4,3 +4,9 @@
   letter-spacing: .9px;
   max-width: 450px;
 }
+
+@media screen and (max-width: 767px) {
+  .people__subtitle {
+    font-size: 22px;
+  }
+}
